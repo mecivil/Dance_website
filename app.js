@@ -36,7 +36,7 @@ app.set('view engine','pug');
 app.set('views',path.join(__dirname,'views'));
 app.get('/', (req, res)=>{
     const con = "This is the best content on the internet so far so use it wisely";
-    const params = {'insert': "Harry's Dance Website", "content": con};
+    const params = {'insert': "Honourable Dance Website", "content": con};
     res.status(200).render('index.pug', params);
 });
 
