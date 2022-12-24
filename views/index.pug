@@ -1,0 +1,52 @@
+extends base.pug
+
+block title 
+    title #{insert}
+block style 
+    style
+        include ../static/style.css
+
+block content
+    section#introSection 
+        div.intro Welcome to Honourable Dance Academy
+        div Upskill yourselves here
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img
+                    img(src="/static/dance1.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe   
+                
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img
+                    img(src="/static/dance2.png")
+                div.card-content
+                    p Come here   
+        div.card
+            h3 It's all about dancing
+            div.card-box 
+                div.card-img
+                    img(src="/static/dance3.png")
+                div.card-content
+                    p You will enjoy it 
+    section#sponsorSection
+        div.sphead
+            h2 Sponsors 
+        div.sponimg
+            img(src="/static/apple.png",alt="apple logo here" id="src").spon1
+            img(src="/static/microsoft.png",alt="microsoft logo here").spon2
+            img(src="/static/fujitsu.png",alt="fujitsu logo here").spon3
+            img(src="/static/dell.png",alt="dell logo here").spon4
+        
+
+    
+
+ 
+    
+    
+ 

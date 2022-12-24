@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Yeon+Sung&display=swap');
+.boxit{
+  display: block;
+  margin:9px auto;
+  text-align: center;
+
+}
+h2{
+    font-family: 'Yeon Sung', cursive;
+}

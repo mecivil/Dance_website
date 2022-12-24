@@ -1,0 +1,56 @@
+.container{
+    margin-top: 11px;
+    background-color: rgb(183, 153, 145);
+    align-items: center;
+    justify-content: center;
+    border-radius: 21px;
+}
+.container h2{
+    text-align: center;
+}
+.inputt{
+display: block;
+margin: 9px auto;
+padding:11px 12px;
+font-size:18px;
+outline:none;
+border-radius: 6px;
+width: 421px;;
+}
+.inputb{
+    margin: 0 auto;
+    display: block;
+    border-radius: 6px;
+    padding:7px 9px;
+    background-color: rgb(54, 14, 14);
+    border:2px solid rgb(172, 61, 61);
+    cursor: pointer;
+    color:rgb(167, 229, 10);
+    width:25%;
+}
+#w3review{
+    outline:none;
+    border-radius: 6px;
+    display: block;
+    margin: 9px auto;
+}
+.ct{
+    background-color: rgb(155, 163, 138);
+    text-align: center;
+    border:2px solid rgb(28, 28, 39);
+    border-radius: 9px;
+
+}
+#foot{
+    margin-top: 18px;
+}
+@media (max-width:450px) and (min-width:4px){
+    .inputt{
+        width:250px;
+    }
+}
+@media (max-width:295px) and (min-width:4px){
+    .inputt{
+        width:101px;
+    }
+}

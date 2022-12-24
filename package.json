@@ -1,0 +1,21 @@
+{
+  "name": "harry_dance",
+  "version": "1.0.0",
+  "description": "This is one of the best dance practice schools in Kolkata",
+  "main": "app.js",
+  "scripts": {
+    "test": "testing..."
+  },
+  "keywords": [
+    "danceit"
+  ],
+  "author": "Harry_bhai",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "mongoose": "^6.7.3"
+  }
+}

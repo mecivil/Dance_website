@@ -1,0 +1,79 @@
+
+.container{
+    margin-top: 11px;
+    background-color: rgb(183, 153, 145);
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'hh hh hh2 hh2' 
+    'p1 p1 p2 p2'
+    'info info p2 p2'
+    'info info img img';
+    border-radius: 21px;
+}
+.item{
+    background-color: yellow;
+    border: 3px solid black;
+    padding: 12px 23px;
+    border-radius: 54px;
+}
+.hh{
+    grid-area: hh;
+}
+.hh2{
+    grid-area: hh2;
+}
+.p1{
+    padding:9px 9px;
+    margin:9px 9px;
+    background-color: lightyellow;
+    border-radius: 21px;
+    grid-area: p1;
+}
+.p2{
+    margin:9px 9px;
+    padding:9px 9px;
+    background-color: lightyellow;
+    border-radius: 21px;
+    grid-area: p2;
+}
+.item{
+    background-color: rgb(118, 157, 34);
+    position: relative;
+    animation-name: harry1;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.item:hover{
+    background-color: rgb(151, 157, 34);
+}
+#foot{
+    margin-top: 18px;
+}
+@keyframes harry1 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 444px;
+    }
+}
+@media (max-width:978px) and (min-width:4px){
+    .container{
+    display: flex;
+    flex-direction: column;
+    }
+}
+@media (max-width:500px) and (min-width:4px){
+    @keyframes harry1 {
+        from {
+            width: 0px;
+        }
+    
+        to {
+            width: 111px;
+        }
+    }
+}

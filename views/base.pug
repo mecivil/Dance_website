@@ -1,0 +1,21 @@
+//- layout.pug
+html
+  head
+    block title 
+    block scripts
+    block style
+  body
+    nav#navbar
+           
+            ul
+                div#photo
+                    img(src="/static/loo.jpg") 
+                    |HDA
+                li #[a(href='/') Home]
+                li #[a(href='/about') About]
+                li #[a(href='/contact') Contact us]
+                li #[a(href='/services') Services]
+                li #[a(href='/class') Class Info]
+    block content
+    footer#foot
+        |Copyright &copy  Subhajit Bera JU CE Deptt. 2022 | All rights reserved

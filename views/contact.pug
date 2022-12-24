@@ -1,0 +1,25 @@
+extends base.pug
+
+block title 
+    title #{tit}
+block style 
+    style
+        include ../static/style.css
+        include ../static/styles.css
+
+block content 
+    div.container 
+        h2 Enter your details.We will get back to you within 24 hrs.
+        form(action="/contact",method="post",class="formit")
+            input(type="text",class="inputt",name="name" ,placeholder="Enter your name")
+            input(type="email",class="inputt",name="email" ,placeholder="Enter your email-id")
+            input(type="number",class="inputt",name="phone" ,placeholder="Enter your mobile num.")
+            input(type="address",class="inputt",name="city" ,placeholder="Enter your city")
+            <textarea id="w3review" name="concern" rows="4" cols="50" placeholder="Enter your concern">
+            </textarea>
+            div.btcheck
+            button(type="submit",class="inputb") Submit
+        div.ct
+            h3 Mobile:+91 33 4001 6644 | +91 9007474406
+            |Email: contact@honourableadance.in
+

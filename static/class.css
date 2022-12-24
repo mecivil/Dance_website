@@ -1,0 +1,100 @@
+.container{
+    margin-top: 11px;
+    background-color: rgb(183, 153, 145);
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+    'a0 a0 a0'
+    'a1 a2 a3' 
+    'a1 a5 a6' 
+    'a4 a7 a8';
+    border-radius: 21px;
+}
+.i{
+    border:2px solid red;
+    background-color: lightsalmon;
+    text-align: center;
+    border-radius: 9px;
+}
+.a0{
+    display: flex;
+    justify-content: center;
+    grid-area: a0;
+
+}
+.a1 {
+   
+    display: flex;
+    justify-content: center;
+    grid-area: a1;
+
+}
+.a2 {
+ 
+    display: flex;
+    justify-content: center;
+    grid-area: a2;
+}
+.a3 {
+ 
+    grid-area: a3;
+    display: flex;
+    justify-content: center;
+}
+.a4 {
+   
+    grid-area: a4;
+    display: flex;
+    justify-content: center;
+}
+.a5 {
+   
+    grid-area: a5;
+    display: flex;
+    justify-content: center;
+}
+.a6 {
+   
+    grid-area: a6;
+    display: flex;
+    justify-content: center;
+}
+.a7 {
+   
+    grid-area: a7;
+    display: flex;
+    justify-content: center;
+}
+.a8 {
+   
+    grid-area: a8;
+    display: flex;
+    justify-content: center;
+}
+.r{
+    height:66px;
+    width:66px;
+}
+.c{
+    padding: 9px 9px;
+
+}
+.i1,.i2{
+    background-color: lightblue;
+    border: 2px ridge rgb(33, 33, 91);
+    border-radius: 9px;
+}
+.a0{
+    color: rgb(60, 38, 38);
+    font-weight: bold;
+    font-size: large;
+}
+#foot{
+    margin-top: 18px;
+}
+@media (max-width:650px) and (min-width:4px){
+    .container{
+    display: flex;
+    flex-direction: column;
+    }
+}
