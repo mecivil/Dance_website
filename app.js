@@ -18,7 +18,7 @@ mongoose.connect(url,connectionParams)
     .catch( (err) => {
         console.error(`Error connecting to the database. n${err}`);
     })
-const port=process.env.PORT || 3000;
+const port=process.env.PORT||3000;
 //Creating mongoose schemas and models and inserting into db
 const contactSchema = new mongoose.Schema({
     name: String,
