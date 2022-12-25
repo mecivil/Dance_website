@@ -48,9 +48,15 @@ width: 421px;;
     .inputt{
         width:250px;
     }
+    #w3review{
+        width: 300px;
+    }
 }
 @media (max-width:295px) and (min-width:4px){
     .inputt{
         width:101px;
+    }
+    #w3review{
+        width: 150px;
     }
 }
