@@ -8,7 +8,7 @@ A simple clean website. ![1](https://user-images.githubusercontent.com/98341366/
 
 The user details entered in the Contact us page are stored in MongoDB Atlas.
 ![image](https://user-images.githubusercontent.com/98341366/218519507-8b7b3451-c03a-4e06-8737-f6cad596fbab.png)
-The entered is stored in MongoDB Cluster DB as BSON as given below:  
+The entered data is stored in MongoDB Cluster DB as BSON as given below:  
 ![image](https://user-images.githubusercontent.com/98341366/218521980-0fc52f0a-e4cb-4171-b1bc-9a49624b428e.png)  
 That's all.  
 Thanks for reading.  
